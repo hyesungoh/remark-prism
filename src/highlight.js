@@ -18,6 +18,7 @@ const PLUGINS = [
   'line-numbers',
   'show-invisibles',
   'treeview',
+  'line-highlight',
 ];
 
 const domHighlight = (value, attrs = {}, range = []) => {
