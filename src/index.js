@@ -112,7 +112,7 @@ module.exports = (options = {}) => (tree) => {
             .filter(({ type }) => type === 'text')
             .map(({ value }) => value)
             .pop(),
-        attrs,
+        ...attrs,
         range,
       }),
     );
